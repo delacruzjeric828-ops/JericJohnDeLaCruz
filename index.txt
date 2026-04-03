@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shoppe Product</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+  <script src="script.js" defer></script>
+  <div class="product-container">
+  <div class="left">
+    <img src="71aTGIS1WGL._AC_UY1100_.jpg" alt="Hoodie">
+  </div>
+
+  <div class="right">
+    <h2>New Classic Men's Hoodie</h2>
+
+    <div class="rating">
+      4.9 ⭐⭐⭐⭐⭐ <span>2k Ratings</span>
+    </div>
+
+    <div class="price">
+      <span class="new-price">₱349 - ₱699</span>
+      <span class="old-price">₱1,200</span>
+      <span class="discount">-71%</span>
+    </div>
+
+    <div class="voucher">
+      Shop Voucher: ₱15 OFF
+    </div>
+
+    <div class="shipping">
+      🚚 Guaranteed to get by 4 - 6 days
+    </div>
+
+    <!-- SIZE -->
+    <div class="section">
+      <p>Size</p>
+      <div class="sizes">
+        <button>S</button>
+        <button class="active">M</button>
+        <button>L</button>
+        <button>XL</button>
+      </div>
+    </div>
+
+    <div class="section quantity">
+      <p>Quantity</p>
+      <div class="qty-box">
+        <button>-</button>
+        <input type="text" value="1">
+        <button>+</button>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button class="cart">🛒 Add to Cart</button>
+      <button class="buy">Buy Now</button>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
